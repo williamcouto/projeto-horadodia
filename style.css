@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+header{
+    font-size: 17pt;
+    color: white;
+    font-family: 'Arvo', Arial, sans-serif;
+}
+body{
+    background-color:#828a1b;
+    text-align: center;
+    font-family: 'Poppins', Arial;
+}
+div{
+    text-align: center;
+    padding: 9px;
+    font-size: 20px;
+}
+section{ 
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 9px 3px 16px 3px rgba(0, 0, 0, 0.541);
+    max-width: 350px;
+    padding: 20px;
+    margin: auto;
+    height:350px;
+}
+footer{
+    padding: 15px;
+    font-size: 14pt;
+    color: white;
+}
+#question-img{
+    float: right;
+    padding: -12px;
+    margin: -22px;
+}
