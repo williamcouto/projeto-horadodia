@@ -5,7 +5,12 @@ function Carregar(){
     var horario = data.getHours()
     var minutos = data.getMinutes()
 
-    msg.innerHTML = `Agora são exatamente ${horario} horas e ${minutos} minutos!`
+    // Mostrar a data do sistema
+    const diaAtual = data.getDate()
+    const mesAtual = data.getMonth() + 1
+    const anoAtual = data.getFullYear()
+
+    msg.innerHTML = `Data: ${diaAtual}/${mesAtual}/${anoAtual} <br> Agora são exatamente ${horario} horas e ${minutos} minutos!`
     if(horario >= 6 && horario < 12){
         document.body.style.background = '#FFB05D'
         document.querySelector('footer').style.color = 'black'
