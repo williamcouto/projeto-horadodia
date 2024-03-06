@@ -4,13 +4,7 @@ Bem-vindo ao Hora do Dia, um site interativo que exibe a hora do dia de acordo c
 ## Como funciona? 🤔
 Ao acessar o site, ele automaticamente detectará a hora local do seu dispositivo. A cor de fundo também será alterada para uma tonalidade correspondente à hora do dia: cores mais vivas durante o dia e cores mais escuras durante a noite.
 
-
-
-## Por que usar este site?
-- **Visualmente Atraente**: A mudança de cores de fundo cria uma experiência agradável para o usuário e a cor de fundo se ajusta de 
-acordo com a hora.
-- **Hora Precisa**: O site exibirá a hora local exata do seu dispositivo.
-- **Simples e Intuitivo**: Navegue e observe as mudanças instantâneas.
+ <img src:"repo-photo.png"></img>
 
 
 ***Contribuições são bem-vindas! Se você tem ideias para melhorar o design, adicionar recursos ou otimizar o código, siga as etapas: Faça um fork deste repositório; Faça as alterações no seu fork; Envie um pull request para análise.***
