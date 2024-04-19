@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+
+/* Celulares */
+@media screen and (min-width:320px) and (max-width:780px) {
+    section{
+        width: 267px;
+        height: 350px;
+    }
+}
