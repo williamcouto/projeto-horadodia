@@ -15,18 +15,18 @@ function Carregar(){
         document.body.style.background = '#FFB05D'
         document.querySelector('footer').style.color = 'black'
         document.querySelector('h1').style.color = 'black'
-        img.src = 'manha.png'
+        img.src = 'assets/manha.png'
             //BOM DIA
     }
     else if (horario >= 12 && horario < 18){
         document.body.style.background = '#3D701F'
         //#60993E
-        img.src = 'tarde.png'
+        img.src = 'assets/tarde.png'
             //BOA TARDE
     }
     else{
         document.body.style.background = '#08141A'
-        img.src = 'noite.png'
+        img.src = 'assets/noite.png'
             //BOA NOITE
     }
 }
